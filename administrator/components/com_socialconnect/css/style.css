@@ -1,0 +1,457 @@
+/**
+ * @version		$Id: style.css 3434 2013-07-26 14:30:14Z lefteris.kavadas $
+ * @package		SocialConnect
+ * @author		JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+/* Container */
+#socialConnect {
+	border: 1px solid #D0D0D0;
+	font-family: 'Open Sans', sans-serif;
+	background: #F0F0EE;
+}
+/* Header */
+#jwHeader {
+	width: 100%;
+	height: 54px;
+	background: #4a4949;
+	border-top: 4px solid #c74484;
+}
+#jwLogo {
+	float: left;
+	width: 190px;
+	height: 54px;
+	background: url('../images/logo.png') no-repeat 12px 12px;
+}
+#jwLogo i {
+	display: none;
+}
+#jwVersion {
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 11px;
+	letter-spacing: -0.5px;
+	line-height: 54px;
+	padding: 0 5px;
+	vertical-align: middle;
+}
+#jwToolbar {
+	float: right;
+	height: 54px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#jwToolbar.jwActionsMenu {
+	background: #323232;
+}
+#jwToolbar li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#jwToolbar.jwActionsMenu li {
+	border-left: 1px solid #4A4949;
+}
+
+#jwToolbar li a, #jwToolbar li a:link, #jwToolbar li a:visited {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+	padding: 0 20px 0 12px;
+	line-height: 53px;
+	letter-spacing: -1px;
+	font-weight: 300;
+}
+
+#jwToolbar li a:hover, #jwToolbar li a:active {
+	background: #C74484
+}
+
+#jwToolbar.jwActionsMenu li a, #jwToolbar.jwActionsMenu li a:link, #jwToolbar.jwActionsMenu li a:visited {
+	font-size: 13px;
+	padding: 0 40px;
+	line-height: 54px;
+	font-weight: 700;
+	letter-spacing: normal;
+}
+
+#jwToolbar li a .jw-icon {
+	font-size: 20px;
+	font-weight: 400;
+	margin-right: 2px;
+}
+#jwSubheader {
+	padding: 0 15px;
+	background: #FFFFFF;
+	height: 46px;
+	line-height: 46px;
+	border-left: 5px solid #c74484;
+	position: relative;
+}
+#jwSubheader .jwPageTitle {
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 0;
+	line-height: 46px;
+	color: #c74484;
+}
+
+#jwMessages {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+	padding: 0;
+	width: 60%;
+	max-width: 650px;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(0, 0, 0, 0.22) inset;
+	overflow: hidden;
+}
+#jwMessages li {
+	list-style: none;
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: normal;
+	overflow: hidden;
+	position: relative;
+	padding: 10px 20px 10px 60px;
+}
+#jwMessages li.jwMessage-message {
+	background: #3FA800;
+}
+#jwMessages li.jwMessage-notice {
+	background: #F2B40E;
+}
+#jwMessages li.jwMessage-error {
+	background: #E33726;
+}
+
+#jwMessages i:before {
+	font-size: 19px;
+	font-weight: 400;
+	height: 100%;
+	text-align: center;
+	width: 44px;
+	position: absolute;
+	left: -4px;
+	top: 0;
+	padding: 10px 0 0 0;
+	vertical-align: middle;
+}
+
+#jwMessages i.jw-icon-message:before {
+	background: #106F00;
+}
+
+#jwMessages i.jw-icon-notice:before {
+	background: #E67F01;
+}
+
+#jwMessages i.jw-icon-error:before {
+	background: #CA0C06;
+}
+#jwContent {
+	background: #f0f0ee;
+}
+
+#socialConnectDashboard {
+	padding: 30px;
+}
+.socialConnectDashboardTitle {
+	font-size: 22px;
+	font-weight: 200;
+	padding: 25px 30px;
+	margin: 0;
+	color: #c74484;
+}
+
+#socialConnectDashboardMain {
+	float: left;
+	width: 67%;
+	margin-right: 3%;
+	background: #ffffff;
+	border-top: 4px solid #c74484;
+}
+#socialConnectDashboard .socialConnectDashboardHeader {
+	line-height: 40px;
+	font-size: 18px;
+}
+#socialConnectDashboard .socialConnectDashboardHeader span:before {
+	font-size: 20px;
+	display: block;
+	color: #c74484;
+	margin: 0 auto;
+	text-align: center;
+}
+#socialConnectDashboard .socialConnectDashboardHeader span {
+	font-size: 14px;
+	display: block;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.socialConnectDashboardTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+.socialConnectDashboardTable td {
+	line-height: 55px;
+}
+.socialConnectDashboardTable tbody tr {
+	border-bottom: 1px solid #E9E9E9;
+}
+
+.socialConnectDashboardTable td.socialConnectDashboardService {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 17px;
+	letter-spacing: -1px;
+	padding-left: 70px;
+	background-position: 30px center;
+	background-repeat: no-repeat;
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceFB {
+	background-image: url('../images/facebook.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceTW {
+	background-image: url('../images/twitter.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceGO {
+	background-image: url('../images/google.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceGOPL {
+	background-image: url('../images/googleplus.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceLI {
+	background-image: url('../images/linkedin.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceNI {
+	background-image: url('../images/ning.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceWP {
+	background-image: url('../images/wordpress.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceMS {
+	background-image: url('../images/windows.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceGH {
+	background-image: url('../images/github.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardServiceDI {
+	background-image: url('../images/disqus.png');
+}
+.socialConnectDashboardTable td.socialConnectDashboardStatus {
+	text-align: center;
+}
+.socialConnectDashboardTable td.socialConnectDashboardStatus span {
+	border-radius: 4px;
+	padding: 8px 12px;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+.socialConnectDashboardTable td.socialConnectDashboardStatus span.scPassed {
+	background: #368F00;
+}
+.socialConnectDashboardTable td.socialConnectDashboardStatus span.scFailed {
+	background: #363636;
+}
+.socialConnectDashboardTable td.socialConnectDashboardStatus span.scNotAvailable {
+	color: #6e6d6d;
+	font-size: 20px;
+}
+
+#socialConnectDashboardSidebar {
+	float: left;
+	width: 30%;
+}
+#socialConnectDashboardSidebar h2 {
+	color: #c74484;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+}
+.socialConnectDashboardDescription {
+	font-size: 13px;
+	margin-bottom: 25px;
+}
+#socialConnectDashboardSidebar .socialConnectDashboardTable td.socialConnectDashboardStatus {
+	text-align: right;
+}
+#socialConnectDashboardSidebar .socialConnectDashboardSystemInfoLabel {
+	font-weight: bold;
+	font-size: 13px;
+}
+#socialConnectDashboardSidebar .socialConnectDashboardSystemInfoValue {
+	text-align: right;
+	padding-right: 7px;
+}
+
+/* Footer */
+#socialConnectAdminFooter {
+	margin-top: 80px;
+}
+
+/* Settings */
+#scSettingsContainer {
+	border-top: 1px solid #999999;
+}
+#scSettingsMenu {
+	float: left;
+	width: 20%;
+	min-width: 250px;
+	margin: 0;
+	padding: 0;
+}
+#scSettingsMenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#scSettingsMenu ul li {
+	border-bottom: 1px solid #D0D0D0;
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	margin: 0;
+	padding: 0;
+}
+#scSettingsMenu ul li a, #scSettingsMenu ul li a:visited, #scSettingsMenu ul li a:link {
+	display: block;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 0 20px;
+	color: #4a4949;
+}
+#scSettingsMenu ul li a:hover {
+	background-color: #c74484;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#scSettingsMenu li a:before {
+	color: #9D9D9D;
+	float: right;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	line-height: 45px;
+}
+#scSettingsMenu li:hover a:before {
+	color: #FFFFFF;
+}
+
+#scSettings {
+	height: 0;
+	overflow-y: scroll;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #D0D0D0;
+	color: #4a4949;
+}
+#scSettings .scSettingsSection {
+	padding: 50px;
+	margin-bottom: 28px;
+}
+#scSettings h3.scSettingsSectionHeader {
+	border-bottom: 1px solid #C5C4C4;
+	display: block;
+	font-size: 23px;
+	font-weight: 400;
+	margin: 0 0 19px;
+	padding: 0 0 23px 0;
+	color: #4a4949;
+}
+#scSettings h4.scSettingsHeader {
+	font-size: 18px;
+	font-weight: normal;
+	background: #dfdfdd;
+	border-radius: 4px;
+	padding: 13px 22px;
+}
+#scSettings .scSettingsRow {
+	margin-bottom: 12px;
+}
+#scSettings label {
+	-moz-box-sizing: border-box;
+	display: inline-block;
+	font-size: 13px;
+	padding: 0 17px 0 0;
+	text-align: left;
+	vertical-align: middle;
+	margin: 0;
+	width: 200px;
+}
+#scSettings input[type="text"] {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CDCDCD;
+	border-radius: 4px 4px 4px 4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	height: 33px;
+	line-height: 33px;
+	padding: 0 8px;
+	margin-right: 10px;
+}
+#scSettings textarea {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CDCDCD;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 4px 4px 4px 4px;
+	line-height: 33px;
+	padding: 0 8px;
+	font-size: 13px;
+	resize: none;
+}
+#scSettings fieldset {
+	display: inline-block;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#scSettings fieldset label {
+	float: none;
+	display: inline-block;
+	padding-left: 4px;
+	width: auto;
+	margin: 0;
+}
+#scSettings fieldset input {
+	float: none;
+	display: inline;
+	margin: 0 4px 0 0 !important;
+	padding: 0;
+}
+#scSettings select {
+	display: inline-block;
+	max-width: 260px;
+	vertical-align: middle;
+	width: 260px;
+	height: 33px;
+	padding: 6px;
+	border: 1px solid #CDCDCD;
+	border-radius: 4px;
+	font-size: 13px;
+	margin-right: 10px;
+}
+#scSettings .scSettingsFieldTextarea label {
+	vertical-align: top;
+}
+
+/* Clearfix div */
+.scClear {
+	clear: both;
+	float: none;
+}

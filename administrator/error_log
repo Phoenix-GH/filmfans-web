@@ -1,0 +1,255 @@
+[03-Dec-2014 19:56:44 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 19:56:57 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 19:57:29 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 19:57:36 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 20:01:59 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 20:02:42 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 20:15:31 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 20:15:41 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 20:15:49 Europe/Lisbon] PHP Fatal error:  Call to undefined method plgSystemFilmFans::_ob_get_clean_all() in /home/rbornpt/public_html/dev/filmfans/website/plugins/system/filmfans/filmfans.php on line 180
+[03-Dec-2014 21:09:03 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2910
+[03-Dec-2014 21:09:03 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2977
+[03-Dec-2014 21:09:03 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3004
+[03-Dec-2014 21:09:03 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3022
+[03-Dec-2014 21:21:36 Europe/Lisbon] PHP Notice:  Undefined variable: videoExtensions in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 723
+[03-Dec-2014 21:21:36 Europe/Lisbon] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 723
+[03-Dec-2014 21:21:36 Europe/Lisbon] PHP Notice:  Undefined variable: audioExtensions in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 729
+[03-Dec-2014 21:21:36 Europe/Lisbon] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 729
+[03-Dec-2014 21:56:21 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2910
+[03-Dec-2014 21:56:21 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2977
+[03-Dec-2014 21:56:21 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3004
+[03-Dec-2014 21:56:21 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3022
+[03-Dec-2014 22:26:30 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2910
+[03-Dec-2014 22:26:30 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2977
+[03-Dec-2014 22:26:30 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3004
+[03-Dec-2014 22:26:30 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3022
+[03-Dec-2014 22:30:07 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2910
+[03-Dec-2014 22:30:07 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2977
+[03-Dec-2014 22:30:07 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3004
+[03-Dec-2014 22:30:07 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3022
+[03-Dec-2014 22:49:06 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2910
+[03-Dec-2014 22:49:06 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2977
+[03-Dec-2014 22:49:06 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3004
+[03-Dec-2014 22:49:06 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3022
+[03-Dec-2014 22:53:59 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2910
+[03-Dec-2014 22:53:59 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2977
+[03-Dec-2014 22:53:59 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3004
+[03-Dec-2014 22:53:59 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3022
+[03-Dec-2014 22:58:47 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2910
+[03-Dec-2014 22:58:47 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 2977
+[03-Dec-2014 22:58:47 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3004
+[03-Dec-2014 22:58:47 Europe/Lisbon] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: invalid range in character class at offset 7 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/lib/class.upload.php on line 3022
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:27 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:27 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[08-Dec-2014 16:18:27 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[08-Dec-2014 16:18:27 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[10-Dec-2014 02:11:13 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[10-Dec-2014 02:11:13 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[10-Dec-2014 02:11:13 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[10-Dec-2014 02:11:13 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[10-Dec-2014 02:11:13 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[10-Dec-2014 02:11:13 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[10-Dec-2014 02:11:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[10-Dec-2014 02:11:14 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[15-Dec-2014 15:57:44 Europe/Lisbon] PHP Notice:  Undefined index: id in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_modules/models/module.php on line 920
+[17-Dec-2014 13:57:05 Europe/Lisbon] PHP Notice:  Undefined variable: videoExtensions in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 723
+[17-Dec-2014 13:57:05 Europe/Lisbon] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 723
+[17-Dec-2014 13:57:05 Europe/Lisbon] PHP Notice:  Undefined variable: audioExtensions in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 729
+[17-Dec-2014 13:57:05 Europe/Lisbon] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 729
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 787
+[19-Dec-2014 00:37:55 Europe/Lisbon] PHP Notice:  Undefined offset: 0 in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/items.php on line 788
+[20-Dec-2014 00:19:18 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[20-Dec-2014 02:09:31 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[20-Dec-2014 02:09:59 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[20-Dec-2014 02:10:04 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[20-Dec-2014 02:57:02 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[20-Dec-2014 15:35:14 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 18:05:12 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 18:06:23 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 18:06:38 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 18:06:49 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 18:44:33 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 18:47:49 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 18:47:51 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 18:47:53 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 20:53:40 Europe/Lisbon] PHP Notice:  Undefined variable: videoExtensions in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 723
+[05-Jan-2015 20:53:40 Europe/Lisbon] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 723
+[05-Jan-2015 20:53:40 Europe/Lisbon] PHP Notice:  Undefined variable: audioExtensions in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 729
+[05-Jan-2015 20:53:40 Europe/Lisbon] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/rbornpt/public_html/dev/filmfans/website/administrator/components/com_k2/models/item.php on line 729
+[05-Jan-2015 21:20:48 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 21:23:29 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 21:40:01 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 21:59:22 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 22:11:10 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 22:27:31 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 22:48:06 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 22:48:26 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 22:48:36 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 22:48:47 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 22:49:26 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[05-Jan-2015 22:49:53 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 19:41:12 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 20:04:47 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 20:06:30 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 20:09:11 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 20:13:55 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 20:14:46 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 21:12:04 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 21:33:00 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[06-Jan-2015 21:33:21 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[07-Jan-2015 00:40:29 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:39:21 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:42:05 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:42:14 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:43:55 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:45:28 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:47:42 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:50:49 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:52:55 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[27-May-2015 09:56:51 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 01:31:21 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 01:50:56 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 01:50:59 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 01:51:02 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 01:51:20 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 01:57:39 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:03:15 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:04:56 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:11:00 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:15:50 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:29:50 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:29:50 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:29:54 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:29:57 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:33:03 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:38:02 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:48:51 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:48:55 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:49:51 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 02:49:58 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 03:18:19 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 03:18:23 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 03:18:25 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:01:30 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:01:32 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:01:35 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:01:38 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:01:57 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:01:58 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:01 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:03 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:06 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:20 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:22 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:24 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:29 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:32 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:33 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:35 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:41 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:43 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:45 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:47 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:50 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:54 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:56 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:02:59 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[16-Jun-2015 17:08:09 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 19:40:56 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 20:14:38 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 20:25:52 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 20:40:39 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 21:07:58 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 21:19:13 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 21:24:11 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 21:41:38 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[17-Jun-2015 23:24:53 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:41:37 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:41:51 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:44:10 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:44:38 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:55:11 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:59:05 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:59:15 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:59:34 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:59:41 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 12:59:53 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:00:10 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:00:26 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:00:48 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:01:06 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:01:17 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:01:58 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:02:07 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:02:27 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:03:55 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:04:45 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:05:04 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:05:15 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:05:27 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:05:43 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:07:27 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:08:19 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:10:39 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:11:06 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:11:49 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:12:16 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:12:47 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:13:11 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:13:39 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:13:54 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:14:38 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:14:54 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:15:27 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 13:15:53 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 14:35:07 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 15:31:35 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202
+[19-Jun-2015 18:35:06 Europe/Lisbon] PHP Notice:  Array to string conversion in /home/rbornpt/public_html/dev/filmfans/website/libraries/joomla/filter/input.php on line 202

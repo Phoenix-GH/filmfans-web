@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>PLG_K2_FILMFANS_CATEGORY_FIELDSET</name>
+	<params group="category-filmfans" addpath="/administrator/components/com_k2/elements">
+		<param name="ffParent" type="list" default="0" label="PLG_K2_FILMFANS_CATEGORY_ALLOW_PARENT" description="PLG_K2_FILMFANS_CATEGORY_ALLOW_PARENT_DESC">
+			<option value="0">K2_NO</option>
+			<option value="1">K2_YES</option>
+		</param>
+		<param name="ffChild" type="categories" default="" label="PLG_K2_FILMFANS_CATEGORY_ALLOW_CHILD" description="PLG_K2_FILMFANS_CATEGORY_ALLOW_CHILD_DESC" />
+	</params>
+	<fields name="params">
+		<fieldset name="category-filmfans" addfieldpath="/administrator/components/com_k2/elements">
+            <field name="ffParent" type="list" default="0" label="PLG_K2_FILMFANS_CATEGORY_ALLOW_PARENT" description="PLG_K2_FILMFANS_CATEGORY_ALLOW_PARENT_DESC">
+                <option value="0">K2_NO</option>
+                <option value="1">K2_YES</option>
+            </field>
+            <field name="ffChild" type="categories" default="" label="PLG_K2_FILMFANS_CATEGORY_ALLOW_CHILD" description="PLG_K2_FILMFANS_CATEGORY_ALLOW_CHILD_DESC" />
+            <field name="ffBehaviour" type="list" default="" label="PLG_K2_FILMFANS_CATEGORY_FIELDS" description="PLG_K2_FILMFANS_CATEGORY_FIELDS_DESC">
+                <option value=""> - </option>
+                <option value="movie">PLG_K2_FILMFANS_CAT_MOVIE</option>
+                <option value="trailer">PLG_K2_FILMFANS_CAT_TRAILER</option>
+                <option value="review">PLG_K2_FILMFANS_CAT_REVIEW</option>
+                <option value="image">PLG_K2_FILMFANS_CAT_IMAGE</option>
+            </field>
+        </fieldset>
+	</fields>
+</form>

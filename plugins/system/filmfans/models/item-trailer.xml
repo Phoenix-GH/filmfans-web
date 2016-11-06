@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form title="PLG_K2_FILMFANS_TRAILER_FIELDSET">
+	<fields name="plugins">
+        <fieldset name="item-filmfans-layout" addfieldpath="/plugins/system/filmfans/models/fields">
+            <field name="fflink" type="k2ffitem" default="" label="PLG_K2_FILMFANS_TRAILER_LINK" childof="movie" />
+        </fieldset>
+   	</fields>
+</form>

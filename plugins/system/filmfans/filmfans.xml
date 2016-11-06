@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="k2" method="upgrade">
+
+	<name>FilmFans K2 Plugin</name>
+	<author>jThemes</author>
+	<creationDate>Nov 21th, 2014</creationDate>
+	<copyright>Copyright (c) 2010 - 2014 jThemes. All rights reserved.</copyright>
+	<authorEmail>jakjim@gmail.com</authorEmail>
+	<authorUrl>http://themeforest.net/user/Jthemes</authorUrl>
+	<version>1.0</version>
+	<license>Private</license>
+	<description>FilmFans functionalty K2 Extention</description>
+
+	<files>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>Facebook</folder>
+		<filename plugin="filmfans">filmfans.php</filename>
+        <filename>index.html</filename>
+	</files>
+
+    <media destination="filmfans" folder="media">
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>images</folder>
+        <filename>index.html</filename>
+    </media>
+
+    <languages>
+        <language tag="en-GB">language/en-GB.plg_system_filmfans.ini</language>
+        <language tag="en-GB">language/en-GB.plg_system_filmfans.sys.ini</language>
+    </languages>
+
+    <config>
+   		<fields name="params">
+   			<fieldset name="basic">
+   				<field name="miTag" type="menuitem" default="" label="Tag menuitem" description="" />
+   				<field name="miSearch" type="menuitem" default="" label="Search menuitem" description="" />
+   				<field name="miFAQ" type="menuitem" default="" label="FAQ menuitem" description="" />
+   				<field name="miAccount" type="menuitem" default="" label="Account menuitem" description="" />
+   				<field name="miProfile" type="menuitem" default="" label="Profile menuitem" description="" />
+   				<field name="miLogin" type="menuitem" default="" label="Login menuitem" description="" />
+                <field name="fb-app" type="text" default="" label="FB Comments Application ID" description="" />
+                <field name="fb-app-main" type="text" default="" label="FB Application ID" description="" />
+                <field name="fb-secret" type="text" default="" label="FB Application Secret" description="" />
+            </fieldset>
+   		</fields>
+   	</config>
+
+</extension>

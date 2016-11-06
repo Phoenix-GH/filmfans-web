@@ -1,0 +1,131 @@
+/**
+ * @version		$Id: style.css 3399 2013-07-19 12:16:32Z lefteris.kavadas $
+ * @package		SocialConnect
+ * @author		JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+#socialConnectAutoPost {
+	height: 286px;
+	position: fixed;
+	right: 0;
+	top: 25%;
+}
+#socialConnectAutoPostInner {
+	width: 330px;
+	min-width: 330px;
+	position: absolute;
+	right: -276px;
+	transition: right 0.5s ease 0s;
+	-webkit-transition: right 0.5s ease 0s;
+}
+#socialConnectAutoPostInner.socialConnectAutoPostOpen {
+	right: 0;
+}
+#socialConnectAutoPostToggler {
+	display: block;
+	position: absolute;
+	left: 1px;
+	width: 53px;
+	height: 50px;
+	background: url('../images/socialconnect-autopost-toggler.png') 0 0 no-repeat #f4f4f4;
+	cursor: pointer;
+	border: 1px solid #b7b7b7;
+	border-radius: 4px 0 0 4px;
+	border-right: none;
+	box-shadow: -2px 0 2px #B7B7B7;
+}
+#socialConnectAutoPostToggler span {
+	display: none;
+}
+#socialConnectAutoPostContainer {
+	width: 275px;
+	float: right;
+	border: 1px solid #b7b7b7;
+	border-radius: 0 0 0 4px;
+	border-right: none;
+	background: #f4f4f4;
+	box-shadow: 0 0 2px #b7b7b7;
+}
+#socialConnectAutoPostHeader {
+	padding: 0 20px;
+}
+#socialConnectAutoPostHeader h3 {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	line-height: 50px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333333;
+	float: left;
+}
+
+#socialConnectAutoPostCloseButton {
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: url('../images/close.png') center top no-repeat #f4f4f4;
+	cursor: pointer;
+	float: right;
+	position: relative;
+	top: 16px;
+}
+
+#socialConnectAutoPostFields, #socialConnectAutoPostText, #socialConnectAutoPostFooter {
+	padding: 16px 20px;
+	border-top: 1px solid #e7e7e7;
+}
+
+#socialConnectAutoPostFields .socialConnectAutoPostService {
+	display: inline-block;
+	width: 47px;
+	text-align: center;
+}
+#socialConnectAutoPostFields .socialConnectAutoPostService label {
+	display: block;
+	width: 47px;
+	height: 47px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#socialConnectAutoPostFields .socialConnectAutoPostService label.socialConnectAutoPostFacebook {
+	background-image: url('../images/facebook.png');
+}
+#socialConnectAutoPostFields .socialConnectAutoPostService label.socialConnectAutoPostTwitter {
+	background-image: url('../images/twitter.png');
+}
+
+#socialConnectAutoPostFields .socialConnectAutoPostService label span {
+	display: none;
+}
+
+#socialConnectAutoPostText label {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 10px;
+}
+#socialConnectAutoPostText textarea {
+	resize: none;
+	width: 100%;
+	height: 56px;
+	border: 1px solid #8e8e8e;
+	border-radius: 2px;
+}
+#socialConnectAutoPostFooter {
+	text-align: right;
+	color: #a6a6a6;
+	font-size: 12px;
+}
+#socialConnectAutoPostFooter a, #socialConnectAutoPostFooter a:hover, #socialConnectAutoPostFooter a:visited, #socialConnectAutoPostFooter a:link {
+	color: #a6a6a6;
+	text-decoration: underline;
+}
+.socialConnectAutoPostClear {
+	float: none;
+	clear: both;
+}

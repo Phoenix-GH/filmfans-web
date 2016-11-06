@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Page">
+        <message>Displays MonoPage</message>
+    </layout>
+    <fields name="request">
+        <fieldset name="request">
+            <field name="ffhash" type="text" label="Hash without #" />
+        </fieldset>
+    </fields>
+</metadata>

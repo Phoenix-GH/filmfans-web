@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>SocialConnect</name>
+	<author>JoomlaWorks</author>
+	<creationDate>December 11th, 2013</creationDate>
+	<copyright>Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.</copyright>
+	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
+	<authorUrl>www.joomlaworks.net</authorUrl>
+	<version>1.5.1</version>
+	<license>http://www.joomlaworks.net/license</license>
+	<scriptfile>script.socialconnect.php</scriptfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="components/com_socialconnect">
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>js</folder>
+		<folder>lib</folder>
+		<folder>tables</folder>
+		<folder>templates</folder>
+		<folder>views</folder>
+		<filename>router.php</filename>
+		<filename>socialconnect.php</filename>
+	</files>
+	<media destination="socialconnect" folder="media/socialconnect">
+		<folder>images</folder>
+	</media>
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.com_socialconnect.ini</language>
+		<language tag="en-GB">en-GB.mod_socialconnect_twitter.ini</language>
+		<language tag="en-GB">en-GB.mod_socialconnect.ini</language>
+	</languages>
+	<administration>
+		<menu img="components/com_socialconnect/images/socialconnect-icon.png">SocialConnect</menu>
+		<files folder="administrator/components/com_socialconnect">
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>elements</folder>
+			<folder>font</folder>
+			<folder>images</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>socialconnect.php</filename>
+			<filename>config.xml</filename>
+			<filename>install.mysql.sql</filename>
+			<filename>uninstall.mysql.sql</filename>
+		</files>
+		<languages folder="administrator/language/en-GB">
+			<language tag="en-GB">en-GB.com_socialconnect.ini</language>
+			<language tag="en-GB">en-GB.com_socialconnect.sys.ini</language>
+			<language tag="en-GB">en-GB.mod_socialconnect.ini</language>
+			<language tag="en-GB">en-GB.plg_authentication_socialconnectemail.ini</language>
+			<language tag="en-GB">en-GB.plg_authentication_socialconnectfacebook.ini</language>
+			<language tag="en-GB">en-GB.plg_authentication_socialconnectgithub.ini</language>
+			<language tag="en-GB">en-GB.plg_authentication_socialconnectgoogle.ini</language>
+			<language tag="en-GB">en-GB.plg_authentication_socialconnectlinkedin.ini</language>
+			<language tag="en-GB">en-GB.plg_authentication_socialconnecttwitter.ini</language>
+			<language tag="en-GB">en-GB.plg_authentication_socialconnectning.ini</language>
+			<language tag="en-GB">en-GB.plg_authentication_socialconnectwordpress.ini</language>
+			<language tag="en-GB">en-GB.plg_content_socialconnectautopost.ini</language>
+			<language tag="en-GB">en-GB.plg_content_socialconnectcomments.ini</language>
+			<language tag="en-GB">en-GB.plg_content_socialconnectmetatags.ini</language>
+			<language tag="en-GB">en-GB.plg_system_socialconnect.ini</language>
+			<language tag="en-GB">en-GB.plg_user_socialconnect.ini</language>
+		</languages>
+	</administration>
+	<modules>
+		<module module="mod_socialconnect" client="site" />
+		<module module="mod_socialconnect_twitter" client="site" />
+		<module module="mod_socialconnect" client="administrator" />
+	</modules>
+	<plugins>
+		<plugin plugin="socialconnectfacebook" group="authentication" />
+		<plugin plugin="socialconnectgithub" group="authentication" />
+		<plugin plugin="socialconnectgoogle" group="authentication" />
+		<plugin plugin="socialconnectlinkedin" group="authentication" />
+		<plugin plugin="socialconnecttwitter" group="authentication" />
+		<plugin plugin="socialconnectning" group="authentication" />
+		<plugin plugin="socialconnectwindows" group="authentication" />
+		<plugin plugin="socialconnectwordpress" group="authentication" />
+		<plugin plugin="socialconnectemail" group="authentication" />
+		<plugin plugin="socialconnect" group="user" />
+		<plugin plugin="socialconnect" group="system" />
+		<plugin plugin="socialconnectautopost" group="content" />
+		<plugin plugin="socialconnectcomments" group="content" />
+		<plugin plugin="socialconnectmetatags" group="content" />
+	</plugins>
+</extension>

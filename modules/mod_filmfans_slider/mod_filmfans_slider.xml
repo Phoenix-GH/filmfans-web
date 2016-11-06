@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>FilmFans Slider</name>
+	<author>jThemes</author>
+	<creationDate>Nov 21th, 2014</creationDate>
+	<copyright>Copyright (c) 2010 - 2014 jThemes. All rights reserved.</copyright>
+	<authorEmail>jakjim@gmail.com</authorEmail>
+	<authorUrl>http://themeforest.net/user/Jthemes</authorUrl>
+	<version>1.0</version>
+	<description>FilmFans Slider</description>
+	<files>
+		<filename module="mod_filmfans_slider">mod_filmfans_slider.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_filmfans_slider.xml</filename>
+		<folder>tmpl</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_banners/models/fields">
+				<field type="text" name="delay" default="6000" label="Delay between slides (ms)" />
+				<field type="text" name="speed" default="2000" label="Animation length (ms)" />
+				<field type="text" name="height" default="540" label="Slider height (px)" />
+				<field type="media" name="slide01_img" directory="slides" label="Slide 1 Image" />
+				<field type="link" name="slide01_link" label="Slide 1 Link" />
+				<field type="media" name="slide02_img" directory="slides" label="Slide 2 Image" />
+				<field type="link" name="slide02_link" label="Slide 2 Link" />
+				<field type="media" name="slide03_img" directory="slides" label="Slide 3 Image" />
+				<field type="link" name="slide03_link" label="Slide 3 Link" />
+				<field type="media" name="slide04_img" directory="slides" label="Slide 4 Image" />
+				<field type="link" name="slide04_link" label="Slide 4 Link" />
+				<field type="media" name="slide05_img" directory="slides" label="Slide 5 Image" />
+				<field type="link" name="slide05_link" label="Slide 5 Link" />
+				<field type="media" name="slide06_img" directory="slides" label="Slide 6 Image" />
+				<field type="link" name="slide06_link" label="Slide 6 Link" />
+				<field type="media" name="slide07_img" directory="slides" label="Slide 7 Image" />
+				<field type="link" name="slide07_link" label="Slide 7 Link" />
+				<field type="media" name="slide08_img" directory="slides" label="Slide 8 Image" />
+				<field type="link" name="slide08_link" label="Slide 8 Link" />
+				<field type="media" name="slide09_img" directory="slides" label="Slide 9 Image" />
+				<field type="link" name="slide09_link" label="Slide 9 Link" />
+				<field type="media" name="slide10_img" directory="slides" label="Slide 10 Image" />
+				<field type="link" name="slide10_link" label="Slide 10 Link" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

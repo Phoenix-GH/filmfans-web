@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" method="upgrade" client="site">
+	<name>SocialConnect Login (by JoomlaWorks)</name>
+	<author>JoomlaWorks</author>
+	<creationDate>December 11th, 2013</creationDate>
+	<copyright>Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.</copyright>
+	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
+	<authorUrl>www.joomlaworks.net</authorUrl>
+	<version>1.5.1</version>
+	<license>http://www.joomlaworks.net/license</license>
+	<description>JW_SC_FRONTEND_MOD_DESC</description>
+	<files>
+		<filename module="mod_socialconnect">mod_socialconnect.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_socialconnect/elements">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="template" type="template" default="default" extension="mod_socialconnect" label="JW_SC_MOD_TEMPLATE" description="" />
+				<field name="introductionMessage" type="list" default="0" label="JW_SC_LOGIN_FORM_INTRODUCTION_MESSSAGE" description="JW_SC_LOGIN_FORM_INTRODUCTION_MESSSAGE_DESC">
+					<option value="">JW_SC_NONE</option>
+					<option value="default">JW_SC_USE_DEFAULT</option>
+					<option value="custom">JW_SC_USE_CUSTOM</option>
+				</field>
+				<field type="spacer"/>
+				<field name="customIntroductionMessage" type="editor" filter="raw" rows="5" cols="30" width="300px" height="100px" buttons="false" default="" label="JW_SC_LOGIN_FORM_CUSTOM_INTRODUCTION_MESSSAGE" description="JW_SC_LOGIN_FORM_CUSTOM_INTRODUCTION_MESSSAGE_DESC"/>
+				<field name="footerMessage" type="list" default="0" label="JW_SC_LOGIN_FORM_FOOTER_MESSSAGE" description="JW_SC_LOGIN_FORM_FOOTER_MESSSAGE_DESC">
+					<option value="">JW_SC_NONE</option>
+					<option value="default">JW_SC_USE_DEFAULT</option>
+					<option value="custom">JW_SC_USE_CUSTOM</option>
+				</field>
+				<field type="spacer"/>
+				<field name="customFooterMessage" type="editor" filter="raw" rows="5" cols="30" width="300px" height="100px" buttons="false" default="" label="JW_SC_LOGIN_FORM_CUSTOM_FOOTER_MESSSAGE" description="JW_SC_LOGIN_FORM_CUSTOM_FOOTER_MESSSAGE_DESC"/>
+				<field name="alignment" type="list" default="left" label="JW_SC_MODULE_ALIGNMENT">
+					<option value="left">JW_SC_LEFT</option>
+					<option value="right">JW_SC_RIGHT</option>
+				</field>
+				<field name="login" type="menuitem" default="" disable="separator" label="JW_SC_COM_LOGIN_REDIRECTION_URL" description="" state="1">
+					<option value="0">JW_SC_SELECT_ITEM</option>
+				</field>
+				<field name="logout" type="menuitem" default="" disable="separator" label="JW_SC_COM_LOGOUT_REDIRECTION_URL" description="" state="1">
+					<option value="0">JW_SC_SELECT_ITEM</option>
+				</field>
+				<field name="usesecure" type="radio" default="0" label="JW_SC_COM_ENCRYPT_LOGIN_FORM" description="JW_SC_COM_SUBMIT_ENCRYPTED_LOGIN_DATA_REQUIRES_SSL">
+					<option value="0">JW_SC_COM_NO</option>
+					<option value="1">JW_SC_COM_YES</option>
+				</field>
+				<field name="menutype" type="menu" default="" label="JW_SC_RENDER_MENU" description="JW_SC_RENDER_MENU_DESCRIPTION">
+					<option value="">JW_SC_SELECT_MENU</option>
+				</field>
+				<field name="cache" type="hidden" default="0" value="0" />
+				<field name="style" type="style" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

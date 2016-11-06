@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template" client="site" method="upgrade">
+	
+	<name>filmfans</name>
+	<author>jThemes</author>
+	<creationDate>Nov 21th, 2014</creationDate>
+	<copyright>Copyright (c) 2010 - 2014 jThemes. All rights reserved.</copyright>
+	<authorEmail>jakjim@gmail.com</authorEmail>
+	<authorUrl>http://themeforest.net/user/Jthemes</authorUrl>
+	<version>1.0</version>
+	<description></description>
+
+	<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>lib</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>logic.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>search-top</position>
+		<position>bottom-spot1</position>
+		<position>bottom-spot2</position>
+		<position>bottom-spot3</position>
+		<position>bottom-spot4</position>
+		<position>top-menu</position>
+		<position>top-social</position>
+		<position>top-apps</position>
+		<position>fffilter</position>
+		<position>subnav</position>
+		<position>topnav</position>
+		<position>topnav-logged</position>
+		<position>front-slider</position>
+		<position>debug</position>
+	</positions>
+
+    <languages>
+        <language tag="en-GB">language/en-GB.tpl_filmfans.ini</language>
+    </languages>
+	
+</extension>

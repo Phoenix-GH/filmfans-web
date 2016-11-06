@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="authentication" method="upgrade">
+	<name>Authentication - SocialConnect (Facebook)</name>
+	<author>JoomlaWorks</author>
+	<creationDate>December 11th, 2013</creationDate>
+	<copyright>Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.</copyright>
+	<license>http://www.joomlaworks.net/license</license>
+	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
+	<authorUrl>www.joomlaworks.net</authorUrl>
+	<version>1.5.1</version>
+	<description>JW_SC_AUTHPLG_FB</description>
+	<files>
+		<filename plugin="socialconnectfacebook">socialconnectfacebook.php</filename>
+	</files>
+</extension>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form title="PLG_K2_FILMFANS_REVIEW_FIELDSET">
+	<fields name="plugins">
+        <fieldset name="item-filmfans-layout" addfieldpath="/plugins/system/filmfans/models/fields">
+            <field name="fflink" type="k2ffitem" default="" label="PLG_K2_FILMFANS_REVIEW_LINK" childof="movie" />
+        </fieldset>
+        <fields name="ffvars">
+            <fieldset name="item-filmfans-layout">
+                <field name="ffrate" type="list" label="PLG_K2_FILMFANS_REVIEW_RATE">
+                    <option></option>
+                    <option value="0.5">0.5</option>
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
+                    <option value="2">2</option>
+                    <option value="2.5">2.5</option>
+                    <option value="3">3</option>
+                    <option value="3.5">3.5</option>
+                    <option value="4">4</option>
+                    <option value="4.5">4.5</option>
+                    <option value="5">5</option>
+                </field>
+                <field name="ffreaction" type="list" label="PLG_K2_FILMFANS_REVIEW_REACTION">
+                    <option></option>
+                    <option value="10">My God!</option>
+                    <option value="7">Win</option>
+                    <option value="4">Sweet</option>
+                    <option value="2">Hahaha</option>
+                    <option value="-5">Fail</option>
+                    <option value="-10">WTF</option>
+                </field>
+                <field name="ffeval" type="list" label="PLG_K2_FILMFANS_REVIEW_EVAL">
+                    <option></option>
+                    <option value="1">I want to see it</option>
+                    <option value="-1">Not interested</option>
+                </field>
+            </fieldset>
+        </fields>
+   	</fields>
+</form>

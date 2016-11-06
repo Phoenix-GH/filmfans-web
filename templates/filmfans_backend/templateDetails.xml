@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template" client="site" method="upgrade">
+	
+	<name>filmfans_backend</name>
+	<author>jThemes</author>
+	<creationDate>Nov 21th, 2014</creationDate>
+	<copyright>Copyright (c) 2010 - 2014 jThemes. All rights reserved.</copyright>
+	<authorEmail>jakjim@gmail.com</authorEmail>
+	<authorUrl>http://themeforest.net/user/Jthemes</authorUrl>
+	<version>1.0</version>
+	<description></description>
+
+	<files>
+		<folder>html</folder>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>logic.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<!--<filename>error.php</filename>
+		<filename>offline.php</filename>-->
+	</files>
+
+	<positions>
+		<position>bottom-spot1</position>
+		<position>bottom-spot2</position>
+		<position>bottom-spot3</position>
+		<position>bottom-spot4</position>
+		<position>sidebar</position>
+		<position>sidebar-logged</position>
+		<position>debug</position>
+	</positions>
+
+    <languages>
+        <language tag="en-GB">language/en-GB.tpl_filmfans_backend.ini</language>
+    </languages>
+	
+</extension>

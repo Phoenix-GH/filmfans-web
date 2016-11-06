@@ -1,0 +1,118 @@
+ul.tagit, ul.tagit.ui-widget {
+    border-radius: 4px;
+	overflow: auto;
+	list-style-type: none;
+    cursor: text;
+    width: 95%;
+    padding: 4px 2%;
+    margin: 6px 0 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #fff;
+    position: static;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+ul.tagit li, ul.tagit.ui-widget li {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin: 2px 5px 2px 0;
+    padding: 5px 17px 5px 10px;
+}
+
+ul.tagit li.tagit-choice, ul.tagit.ui-widget li.tagit-choice {
+    border-radius: 4px;
+    border: 1px solid #4b99ed;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    height: 13px;
+    vertical-align: middle;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+    background: #4bc2ed;
+    background: linear-gradient(to top, #4bc2ed 0%,#2ea2cc 100%);
+}
+
+ul.tagit li.tagit-choice:hover, ul.tagit.ui-widget li.tagit-choice:hover {
+    text-decoration: none;
+    background: #4ba0ea;
+    background: linear-gradient(to top, #4ba0ea 0%,#2f89ce 100%);
+}
+
+ul.tagit.ui-sortable li.tagit-choice {
+    cursor: move;
+}
+
+ul.tagit.ui-sortable li.tagit-choice a.ui-icon.ui-icon-grip-dotted-vertical {
+    float: left;
+    width: 12px;
+    margin-left: -5px;
+    cursor: move;
+}
+
+ul.tagit li.tagit-choice.selected {
+    color: #777777;
+    border: 1px solid #999999;
+    background: rgb(200,200,200);
+    background: linear-gradient(to top, rgba(200,200,200,1) 0%, rgba(182,182,182,1) 100%);
+}
+
+ul.tagit li.tagit-choice input {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+ul.tagit li.tagit-choice a.tagit-close, ul.tagit.ui-widget li.tagit-choice a.tagit-close {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    color: #ddd;
+    font-size: 13px;
+    height: 13px;
+    font-weight: bold;
+    outline: medium none;
+    padding: 6px 4px 6px 2px;
+    text-decoration: none;
+    display: block;
+}
+
+ul.tagit li.tagit-choice a.tagit-close:hover, ul.tagit.ui-widget li.tagit-choice a.tagit-close:hover {
+    color: #000;
+}
+
+ul.tagit input[type="text"],
+ul.tagit.ui-widget input[type="text"].tagit-input,
+ul.tagit.ui-widget input[type="text"].tagit-input:active,
+ul.tagit.ui-widget input[type="text"].tagit-input:hover,
+ul.tagit.ui-widget input[type="text"].tagit-input:focus {
+    line-height: 13px;
+    border: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: inherit !important;
+    outline: none;
+    box-sizing: border-box;
+   	background-color: inherit;
+   	display: block;
+   	border-radius: 0;
+}
+
+ul.tagit div.tagit-label.hidden, .tagit-hiddenSelect {
+	display: none;
+}
+
+.tagit-desc {
+    display: block;
+    font-size: 80%;
+    color: #888;
+}
+

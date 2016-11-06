@@ -1,0 +1,44 @@
+/**
+ * @version		$Id: style.css 3397 2013-07-19 11:28:17Z lefteris.kavadas $
+ * @package		SocialConnect
+ * @author		JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+#modSocialConnectTwitterDefault ul {
+	list-style: none;
+	padding: 0;
+	margin : 0;
+}
+#modSocialConnectTwitterDefault ul li {
+	padding: 4px;
+	border-bottom: 1px dotted #ccc;
+	background: #fff;
+}
+#modSocialConnectTwitterDefault ul li.modSocialConnectEven {
+	background: #FFFFF0;
+}
+#modSocialConnectTwitterDefault .modSocialConnectTwitterUserAvatar {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 0 4px 0 0;
+	padding: 0;
+}
+#modSocialConnectTwitterDefault .modSocialConnectTwitterStatusTime {
+	font-size: 10px;
+}
+#modSocialConnectTwitterDefault .modSocialConnectTwitterFollowUs {
+	clear: both;
+	padding: 4px;
+}
+#modSocialConnectTwitterDefault .modSocialConnectTwitterFollowUs a {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+}
+#modSocialConnectTwitterDefault .modSocialConnectTwitterFollowUs a span {
+	background: url('../images/twitter_16x16_8bit.png') no-repeat left center;
+	padding: 2px 0 2px 20px;
+}

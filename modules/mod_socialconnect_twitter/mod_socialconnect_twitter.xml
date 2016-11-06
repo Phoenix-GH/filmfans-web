@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" method="upgrade" client="site">
+	<name>SocialConnect Twitter (by JoomlaWorks)</name>
+	<author>JoomlaWorks</author>
+	<creationDate>December 11th, 2013</creationDate>
+	<copyright>Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.</copyright>
+	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
+	<authorUrl>www.joomlaworks.net</authorUrl>
+	<version>1.5.1</version>
+	<license>http://www.joomlaworks.net/license</license>
+	<description>JW_SC_TW_FRONTEND_MOD_DESC</description>
+	<files>
+		<filename module="mod_socialconnect_twitter">mod_socialconnect_twitter.php</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_socialconnect/elements">
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="template" type="template" default="default" extension="mod_socialconnect_twitter" label="JW_SC_MOD_TEMPLATE" description="" />
+				<field name="loadCSS" label="JW_SC_MOD_USE_BUILT_IN_CSS_STYLING" type="radio" default="1">
+					<option value="0">JW_SC_MOD_NO</option>
+					<option value="1">JW_SC_MOD_YES</option>
+				</field>
+				<field name="screenName" type="text" label="JW_SC_TW_MOD_SCREEN_NAME" />
+				<field name="count" type="text" default="6" label="JW_SC_TW_MOD_TWEETS_COUNT" />
+				<field name="cache" type="hidden" default="1" value="1" />
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,97 @@
+/**
+ * @version		$Id: style.css 3400 2013-07-19 12:20:44Z lefteris.kavadas $
+ * @package		SocialConnect
+ * @author		JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+#socialConnectAutoPost {
+	width: auto;
+	max-width: 60px;
+	height: 44px;
+	line-height: 44px;
+	padding: 8px 0;
+	position: fixed;
+	right: 25%;
+	bottom: 0;
+	transition: max-width 0.5s ease 0s;
+	-webkit-transition: max-width 0.5s ease 0s;
+	background: #f4f4f4;
+	box-shadow: 0 0 2px #b7b7b7;
+	border: 1px solid #b7b7b7;
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+	overflow: hidden;
+	z-index: 10000;
+}
+
+#socialConnectAutoPost.socialConnectAutoPostOpen {
+	max-width: 600px;
+}
+#socialConnectAutoPostToggler {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	background: url('../images/socialconnect-autopost-toggler.png') center top no-repeat #f4f4f4;
+	cursor: pointer;
+	border-radius: 4px 4px 0 0;
+}
+
+#socialConnectAutoPost.socialConnectAutoPostOpen #socialConnectAutoPostToggler {
+	background: url('../images/socialconnect-autopost-toggler-no-colors.png') center top no-repeat #f4f4f4;
+}
+
+#socialConnectAutoPostToggler span {
+	display: none;
+}
+
+#socialConnectAutoPostSuffix {
+	width: 276px;
+	padding: 12px;
+	border: 1px solid #8e8e8e;
+	border-radius: 2px;
+	margin-left: 60px;
+	margin-right: 20px;
+}
+
+#socialConnectAutoPost label {
+	display: inline-block;
+	margin: 0 20px 0 10px;
+	width: 28px;
+	height: 28px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 8px;
+}
+#socialConnectAutoPost label span {
+	display: none;
+}
+#socialConnectAutoPost label.socialConnectAutoPostFacebook {
+	background-image: url('../images/facebook.png');
+}
+#socialConnectAutoPost label.socialConnectAutoPostTwitter {
+	background-image: url('../images/twitter.png');
+}
+#socialConnectAutoPostFB, #socialConnectAutoPostTW {
+	margin: 0;
+}
+#socialConnectAutoPostCloseButton {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	position: relative;
+	top: 6px;
+	background: url('../images/close.png') center top no-repeat #f4f4f4;
+	cursor: pointer;
+	margin-left: 20px;
+	right: 20px;
+}
+.socialConnectAutoPostClear {
+	float: none;
+	clear: both;
+}

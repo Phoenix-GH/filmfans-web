@@ -1,0 +1,212 @@
+/**
+ * @version		$Id: template.css 3315 2013-07-09 16:26:36Z lefteris.kavadas $
+ * @package		SocialConnect
+ * @author		JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+/* Khepri admin template resets */
+#module-status {
+	background-image: none !important;
+}
+#module-status #socialConnectCounters span {
+	float: none;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+}
+/* Module CSS */
+.mod_socialconnect {
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0 8px;
+}
+.isJ3 {
+	display: inline-block;
+	float: none;
+}
+#socialConnectCounters {
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+	width: 270px;
+	position: absolute;
+	z-index: 9999;
+	line-height: normal;
+	border: 1px solid #BFBFBF;
+	border-radius: 4px;
+	background-color: #F2F2F2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E6E6E6)); /* Safari 4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FFFFFF, #E6E6E6); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+	background-image: -moz-linear-gradient(top, #FFFFFF, #E6E6E6); /* Firefox 3.6-15 */
+	background-image: -o-linear-gradient(top, #FFFFFF, #E6E6E6); /* Opera 11.10-12.00 */
+	background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6); /* Firefox 16+, IE10, Opera 12.50+ */
+	box-shadow: 0px 0px 15px 0px #BFBFBF;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+#socialConnectCounters.socialConnectModal {
+	visibility: visible;
+	opacity: 1;
+}
+.socialConnectPopDown {
+	right: 0;
+	margin: 2px 0 0 0;
+}
+.socialConnectPopUp {
+	left: 0;
+	bottom: 100%;
+	margin: 0 0 2px 0;
+}
+#socialConnectCounters .socialConnectCountersLoggedInUsers {
+	padding: 23px 34px 15px 25px;
+	border-bottom: 1px solid #EBEBEB;
+}
+#socialConnectCounters .socialConnectCountersLoggedInUsersContainer {
+	min-height: 41px;
+	background: url('../images/users.png') 0 0 no-repeat;
+	padding-left: 54px;
+}
+#socialConnectCounters span.socialConnectCountersLoggedInUsersCounter {
+	display: block;
+	font-size: 29px;
+	line-height: 27px !important;
+	font-weight: bold;
+	color: #333333;
+}
+#socialConnectCounters span.socialConnectCountersLoggedInUsersDetails {
+	display: block;
+	font-size: 13px;
+	color: #AAAAAA;
+}
+#socialConnectCounters .socialConnectServicesCounterRow {
+	border-bottom: 1px solid #DFDFDF;
+}
+#socialConnectCounters .socialConnectServiceCounter {
+	display: block;
+	float: left;
+	width: 33%;
+	height: 87px;
+}
+#socialConnectCounters .socialConnectServiceCounter span {
+	display: block;
+	background-position: center 15px;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 57px ! important;
+	color: #555555;
+	font-size: 14px;
+	font-weight: bold;
+	float: none;
+	margin: 0;
+}
+#socialConnectCounters span.socialConnectJoomlaCounter {
+	background-image: url('../images/joomla.png');
+}
+#socialConnectCounters span.socialConnectFacebookCounter {
+	background-image: url('../images/facebook.png');
+}
+#socialConnectCounters span.socialConnectTwitterCounter {
+	background-image: url('../images/twitter.png');
+}
+#socialConnectCounters span.socialConnectGoogleCounter {
+	background-image: url('../images/google.png');
+}
+#socialConnectCounters span.socialConnectGooglePlusCounter {
+	background-image: url('../images/googleplus.png');
+}
+#socialConnectCounters span.socialConnectLinkedInCounter {
+	background-image: url('../images/linkedin.png');
+}
+#socialConnectCounters span.socialConnectNingCounter {
+	background-image: url('../images/ning.png');
+}
+#socialConnectCounters span.socialConnectWindowsCounter {
+	background-image: url('../images/windows.png');
+}
+#socialConnectCounters span.socialConnectWordpressCounter {
+	background-image: url('../images/wordpress.png');
+}
+#socialConnectCounters span.socialConnectGithubCounter {
+	background-image: url('../images/github.png');
+}
+#socialConnectCounters div.socialConnectCountersTotalUsers {
+	padding: 11px 26px;
+}
+#socialConnectCounters div.socialConnectCountersTotalUsers span {
+	display: inline !important;
+}
+#socialConnectCounters span.socialConnectCountersTotalUsersCounter {
+	color: #555555;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 4px;
+}
+#socialConnectCounters span.socialConnectCountersTotalUsersDetails {
+	color: #AAAAAA;
+	font-size: 12px;
+}
+a#socialConnectCountersLoggedInUsersButton {
+	display: inline-block;
+	height: 23px;
+	line-height: 23px;
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #333333;
+	font-weight: bold;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+	background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+	background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+	background-repeat: repeat-x;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	border: 1px solid #bbb;
+	border-bottom-color: #a2a2a2;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+#socialConnectCountersLoggedInUsersButton .socialConnectCountersLoggedInUsersButtonCounter {
+	display: block;
+	float: left;
+	border-right: 1px solid #BDBDBD;
+	padding: 0 9px 0 36px;
+	line-height: 23px;
+	margin: 0;
+	background: url('../images/users-small.png') 10px center no-repeat;
+	font-size: 12px;
+}
+#socialConnectCountersLoggedInUsersButton .socialConnectCountersLoggedInUsersButtonToggler {
+	display: block;
+	float: left;
+	width: 22px;
+	height: 23px;
+	line-height: 23px;
+	margin: 0;
+	padding: 0;
+}
+#socialConnectCountersLoggedInUsersButton .socialConnectArrowUp {
+	background: url('../images/arrow.png') center center no-repeat;
+}
+#socialConnectCountersLoggedInUsersButton .socialConnectArrowDown {
+	background: url('../images/arrow-down.png') center center no-repeat;
+}
+#socialConnectCounters .socialConnectClear, #socialConnectCountersLoggedInUsersButton .socialConnectClear {
+	float: none;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}

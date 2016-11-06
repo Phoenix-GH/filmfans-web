@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config  addfieldpath="/administrator/components/com_content/models/fields">
+    <fieldset name="blocks" label="Settings" description="">
+        <field name="aAbout" type="modal_article" label="About Article" description="" />
+        <field name="aApp" type="modal_article" label="Get the App" description="" />
+        <field name="linkAppIOS" type="url" label="iOS App Link" description="" />
+        <field name="linkAppAndroid" type="url" label="Android App Link" description="" />
+        <field name="linkExtChrome" type="url" label="Chrome Extention Link" description="" />
+        <field name="linkExtFF" type="url" label="FireFox Extention Link" description="" />
+        <field name="linkExtIE" type="url" label="Internet Explorer Extention Link" description="" />
+        <field name="linkExtOpera" type="url" label="Opera Extention Link" description="" />
+        <field name="linkExtSafari" type="url" label="Safari Extention Link" description="" />
+        <!--<field name="inviteEmail" type="text" label="Invite Email Template" description="" cols="60" rows="10" />-->
+        <field name="contactEmail" type="email" label="Contact Email" description="" />
+        <field name="supportEmail" type="email" label="Support Email" description="" />
+        <field name="reportEmail" type="email" label="Report Abuse Email" description="" />
+        <field name="faqCategory" type="category" label="FAQ category" extension="com_content" description="" />
+        <field name="aTerms" type="modal_article" label="Terms Article" description="" />
+        <field name="aPolicy" type="modal_article" label="Privacy Policy Article" description="" />
+
+        <field name="sections" type="checkboxes" label="Show Sections">
+            <option value="about">About</option>
+            <option value="get-app">Get the App</option>
+            <option value="browser-extention">Browser Extention</option>
+            <option value="invite">Invite</option>
+            <option value="advertise">Advertise</option>
+            <option value="support">Support</option>
+            <option value="faq">FAQ</option>
+            <option value="report-abuse">Report Abuse</option>
+            <option value="terms">Terms of Services</option>
+            <option value="privacy-policy">Privacy Policy</option>
+        </field>
+
+    </fieldset>
+</config>

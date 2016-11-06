@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params label="JW_SC_COM_AUTHENTICATION_SETTINGS" group="facebook" addpath="/administrator/components/com_socialconnect/elements">
+		<param label="Facebook" type="header" default="" />
+		<param name="facebookApplicationId" label="JW_SC_COM_APP_ID" type="text" default="" />
+		<param name="facebookApplicationSecret" label="JW_SC_COM_APP_SECRET" type="text" default="" />
+		<param label="Twitter" type="header" default="" />
+		<param name="twitterConsumerKey" label="JW_SC_COM_CONSUMER_KEY" type="text" default="" />
+		<param name="twitterConsumerSecret" label="JW_SC_COM_CONSUMER_SECRET" type="text" default="" />
+		<param label="Google" type="header" default="" />
+		<param name="googleClientId" label="JW_SC_COM_CLIENT_ID" type="text" default="" />
+		<param name="googleClientSecret" label="JW_SC_COM_CLIENT_SECRET" type="text" default="" />
+		<param name="googleAuthType" label="JW_SC_COM_GOOGLE_LOGIN_TYPE" type="list">
+			<option value="google">JW_SC_COM_GOOGLE_ACCOUNT</option>
+			<option value="googlePlus">JW_SC_COM_GOOGLE_PLUS_ACCOUNT</option>
+			<option value="both">JW_SC_COM_BOTH</option>
+		</param>
+		<param label="LinkedIn" type="header" default="" />
+		<param name="linkedInApiKey" label="JW_SC_COM_API_KEY" type="text" default="" />
+		<param name="linkedInApiSecret" label="JW_SC_COM_API_SECRET" type="text" default="" />
+		<param label="GitHub" type="header" default="" />
+		<param name="githubClientId" label="JW_SC_COM_CLIENT_ID" type="text" default="" />
+		<param name="githubClientSecret" label="JW_SC_COM_CLIENT_SECRET" type="text" default="" />
+		<param label="WordPress" type="header" default="" />
+		<param name="wpClientId" label="JW_SC_COM_CLIENT_ID" type="text" default="" />
+		<param name="wpClientSecret" label="JW_SC_COM_CLIENT_SECRET" type="text" default="" />
+		<param label="Microsoft" type="header" default="" />
+		<param name="winClientId" label="JW_SC_COM_CLIENT_ID" type="text" default="" />
+		<param name="winClientSecret" label="JW_SC_COM_CLIENT_SECRET" type="text" default="" />
+		<param label="Ning" type="header" default="" />
+		<param name="ningDomain" label="JW_SC_COM_NING_DEFAULT_DOMAIN" type="text" default="" description="JW_SC_COM_ENTER_THE_DOMAIN_OF_THE_NING_COMMUNITY_YOU_WISH_TO_INTEGRATE_WITH_YOUR_JOOMLA_WEBSITE" />
+		<param name="ningCnameDomain" label="JW_SC_COM_NING_CNAME_DOMAIN" type="text" default="" description="JW_SC_COM_ENTER_THE_CNAME_DOMAIN_OF_THE_NING_COMMUNITY" />
+		<param name="ningNetworkName" label="JW_SC_COM_NING_NETWORK_NAME" type="text" default="" description="JW_SC_COM_ENTER_THE_NETWORK_NAME_OF_THE_NING_COMMUNITY" />
+		<param name="ningPretext" label="JW_SC_COM_NING_PRETEXT" rows="5" cols="30" type="textarea" default="" description="" />
+		<param name="ningPosttext" label="JW_SC_COM_NING_POSTTEXT" rows="5" cols="30" type="textarea" default="" description="" />
+	</params>
+	<params label="JW_SC_COM_COMMENTS_SETTINGS" group="comments" addpath="/administrator/components/com_socialconnect/elements">
+		<param name="commentsService" label="JW_SC_COM_COMMENTS_SERVICE" type="list">
+			<option value="">JW_SC_COM_NONE</option>
+			<option value="facebook">JW_SC_COM_FACEBOOK</option>
+			<option value="disqus">JW_SC_COM_DISQUS</option>
+		</param>
+		<param label="Facebook" type="header" default="" />
+		<param name="facebookCommentsApplicationId" label="JW_SC_COM_FB_COMMENTS_APP_ID" description="JW_SC_COM_FB_COMMENTS_APP_ID_DESC" type="text" default="" />
+		<param name="facebookCommentsWidth" label="JW_SC_COM_FB_COMMENTS_WIDTH" description="JW_SC_COM_FB_COMMENTS_WIDTH_DESC" type="text" default="400" />
+		<param name="facebookCommentsColorscheme" label="JW_SC_COM_FB_COMMENTS_COLOR_SCHEME" description="JW_SC_COM_FB_COMMENTS_COLOR_SCHEME_DESC" type="list" default="light">
+			<option value="light">JW_SC_COM_FB_COMMENTS_COLOR_SCHEME_LIGHT</option>
+			<option value="dark">JW_SC_COM_FB_COMMENTS_COLOR_SCHEME_DARK</option>
+		</param>
+		<param name="facebookCommentsNumOfPosts" label="JW_SC_COM_FB_COMMENTS_NUM_OF_COMMENTS" description="JW_SC_COM_FB_COMMENTS_NUM_OF_COMMENTS_DESC" type="text" default="10" />
+		<param name="facebookCommentsOrdering" label="JW_SC_COM_FB_COMMENTS_ORDERING" description="JW_SC_COM_FB_COMMENTS_ORDERING_DESC" type="list" default="social">
+			<option value="social">JW_SC_COM_FB_COMMENTS_SOCIAL</option>
+			<option value="time">JW_SC_COM_FB_COMMENTS_TIME</option>
+			<option value="reverse_time">JW_SC_COM_FB_COMMENTS_REVERSE_TIME</option>
+		</param>
+		<param label="DISQUS" type="header" default="" />
+		<param name="disqusShortName" label="JW_SC_COM_DISQUS_SHORT_NAME" type="text" default="" />
+		<param name="disqusDevMode" label="JW_SC_COM_DISQUS_DEVELOPER_MODE" description="JW_SC_COM_DISQUS_DEVELOPER_MODE_DESC" type="radio" default="0">
+			<option value="0">JW_SC_COM_DISABLED</option>
+			<option value="1">JW_SC_COM_ENABLED</option>
+		</param>
+	</params>
+	<params label="JW_SC_COM_SHARING_SETTINGS" group="sharing" addpath="/administrator/components/com_socialconnect/elements">
+		<param name="autoPostLayout" label="JW_SC_COM_AUTOPOST_LAYOUT" type="list" default="default">
+			<option value="default">JW_SC_COM_DEFAULT</option>
+			<option value="bottom">JW_SC_COM_BOTTOM</option>
+		</param>
+		<param label="Facebook" type="header" default="" />
+		<param name="facebookAutoPost" label="JW_SC_COM_FACEBOOK_AUTOPOST" description="JW_SC_COM_FACEBOOK_AUTOPOST_DESC" type="radio" default="0">
+			<option value="0">JW_SC_COM_DISABLED</option>
+			<option value="1">JW_SC_COM_ENABLED</option>
+		</param>
+		<param name="facebookAutoPostData" service="facebook" multi="true" label="JW_SC_COM_AUTOPOST_ACCOUNT" type="serviceaccounts" />
+		<param label="Twitter" type="header" default="" />
+		<param name="twitterAutoPost" label="JW_SC_COM_TWITTER_AUTOPOST" description="JW_SC_COM_TWITTER_AUTOPOST_DESC" type="radio" default="0">
+			<option value="0">JW_SC_COM_DISABLED</option>
+			<option value="1">JW_SC_COM_ENABLED</option>
+		</param>
+		<param name="twitterAutoPostData" service="twitter" multi="false" label="JW_SC_COM_AUTOPOST_ACCOUNT" type="serviceaccounts" />
+	</params>
+	<params label="JW_SC_COM_ADVANCED_SETTINGS_TAB" group="advanced" addpath="/administrator/components/com_socialconnect/elements">
+		<param name="usernameGeneration" label="JW_SC_COM_USERNAME_GENERATION_LABEL" default="id" type="list">
+			<option value="name">JW_SC_COM_USERNAME_GENERATION_NAME</option>
+			<option value="email">JW_SC_COM_USERNAME_GENERATION_EMAIL</option>
+			<option value="hash">JW_SC_COM_USERNAME_GENERATION_HASH</option>
+			<option value="id">JW_SC_COM_USERNAME_GENERATION_ID</option>
+		</param>
+	</params>
+	<params label="JW_SC_COM_SYSTEM_SETTINGS_TAB" group="system" addpath="/administrator/components/com_socialconnect/elements">
+		<param name="stopForumSpamIntegration" label="JW_SC_COM_STOP_FORUM_SPAM_INTEGRATION_FOR_USER_LOGINS" type="radio" default="0">
+			<option value="0">JW_SC_COM_DISABLED</option>
+			<option value="1">JW_SC_COM_ENABLED</option>
+		</param>
+		<param name="curlConnectTimeout" label="JW_SC_COM_CURL_CONNECT_TIMEOUT" type="text" default="" description="JW_SC_COM_CURL_CONNECT_TIMEOUT_DESC" />
+		<param name="curlTimeout" label="JW_SC_COM_CURL_TIMEOUT" type="text" default="" description="JW_SC_COM_CURL_TIMEOUT_DESC" />
+	</params>
+	<form>
+		<fields addfieldpath="/administrator/components/com_socialconnect/elements">
+			<fieldset label="JW_SC_COM_AUTHENTICATION_SETTINGS" name="facebook">
+				<field label="Facebook" type="header" default="" />
+				<field name="facebookApplicationId" label="JW_SC_COM_APP_ID" type="text" default="" />
+				<field name="facebookApplicationSecret" label="JW_SC_COM_APP_SECRET" type="text" default="" />
+				<field label="Twitter" type="header" default="" />
+				<field name="twitterConsumerKey" label="JW_SC_COM_CONSUMER_KEY" type="text" default="" />
+				<field name="twitterConsumerSecret" label="JW_SC_COM_CONSUMER_SECRET" type="text" default="" />
+				<field label="Google" type="header" default="" />
+				<field name="googleClientId" label="JW_SC_COM_CLIENT_ID" type="text" default="" />
+				<field name="googleClientSecret" label="JW_SC_COM_CLIENT_SECRET" type="text" default="" />
+				<field name="googleAuthType" label="JW_SC_COM_GOOGLE_LOGIN_TYPE" type="list">
+					<option value="google">JW_SC_COM_GOOGLE_ACCOUNT</option>
+					<option value="googlePlus">JW_SC_COM_GOOGLE_PLUS_ACCOUNT</option>
+					<option value="both">JW_SC_COM_BOTH</option>
+				</field>
+				<field label="LinkedIn" type="header" default="" />
+				<field name="linkedInApiKey" label="JW_SC_COM_API_KEY" type="text" default="" />
+				<field name="linkedInApiSecret" label="JW_SC_COM_API_SECRET" type="text" default="" />
+				<field label="GitHub" type="header" default="" />
+				<field name="githubClientId" label="JW_SC_COM_CLIENT_ID" type="text" default="" />
+				<field name="githubClientSecret" label="JW_SC_COM_CLIENT_SECRET" type="text" default="" />
+				<field label="WordPress" type="header" default="" />
+				<field name="wpClientId" label="JW_SC_COM_CLIENT_ID" type="text" default="" />
+				<field name="wpClientSecret" label="JW_SC_COM_CLIENT_SECRET" type="text" default="" />
+				<field label="Microsoft" type="header" default="" />
+				<field name="winClientId" label="JW_SC_COM_CLIENT_ID" type="text" default="" />
+				<field name="winClientSecret" label="JW_SC_COM_CLIENT_SECRET" type="text" default="" />
+				<field label="Ning" type="header" default="" />
+				<field name="ningDomain" label="JW_SC_COM_NING_DEFAULT_DOMAIN" type="text" default="" description="JW_SC_COM_ENTER_THE_DOMAIN_OF_THE_NING_COMMUNITY_YOU_WISH_TO_INTEGRATE_WITH_YOUR_JOOMLA_WEBSITE" />
+				<field name="ningCnameDomain" label="JW_SC_COM_NING_CNAME_DOMAIN" type="text" default="" description="JW_SC_COM_ENTER_THE_CNAME_DOMAIN_OF_THE_NING_COMMUNITY" />
+				<field name="ningNetworkName" label="JW_SC_COM_NING_NETWORK_NAME" type="text" default="" description="JW_SC_COM_ENTER_THE_NETWORK_NAME_OF_THE_NING_COMMUNITY" />
+				<field name="ningPretext" label="JW_SC_COM_NING_PRETEXT" rows="5" cols="30" type="textarea" default="" description="" />
+				<field name="ningPosttext" label="JW_SC_COM_NING_POSTTEXT" rows="5" cols="30" type="textarea" default="" description="" />
+			</fieldset>
+			<fieldset label="JW_SC_COM_COMMENTS_SETTINGS" name="comments">
+				<field name="commentsService" label="JW_SC_COM_COMMENTS_SERVICE" type="list">
+					<option value="">JW_SC_COM_NONE</option>
+					<option value="facebook">JW_SC_COM_FACEBOOK</option>
+					<option value="disqus">JW_SC_COM_DISQUS</option>
+				</field>
+				<field label="Facebook" type="header" default="" />
+				<field name="facebookCommentsApplicationId" label="JW_SC_COM_FB_COMMENTS_APP_ID" description="JW_SC_COM_FB_COMMENTS_APP_ID_DESC" type="text" default="" />
+				<field name="facebookCommentsWidth" label="JW_SC_COM_FB_COMMENTS_WIDTH" description="JW_SC_COM_FB_COMMENTS_WIDTH_DESC" type="text" default="400" />
+				<field name="facebookCommentsColorscheme" label="JW_SC_COM_FB_COMMENTS_COLOR_SCHEME" description="JW_SC_COM_FB_COMMENTS_COLOR_SCHEME_DESC" type="list" default="light">
+					<option value="light">JW_SC_COM_FB_COMMENTS_COLOR_SCHEME_LIGHT</option>
+					<option value="dark">JW_SC_COM_FB_COMMENTS_COLOR_SCHEME_DARK</option>
+				</field>
+				<field name="facebookCommentsNumOfPosts" label="JW_SC_COM_FB_COMMENTS_NUM_OF_COMMENTS" description="JW_SC_COM_FB_COMMENTS_NUM_OF_COMMENTS_DESC" type="text" default="10" />
+				<field name="facebookCommentsOrdering" label="JW_SC_COM_FB_COMMENTS_ORDERING" description="JW_SC_COM_FB_COMMENTS_ORDERING_DESC" type="list" default="social">
+					<option value="social">JW_SC_COM_FB_COMMENTS_SOCIAL</option>
+					<option value="time">JW_SC_COM_FB_COMMENTS_TIME</option>
+					<option value="reverse_time">JW_SC_COM_FB_COMMENTS_REVERSE_TIME</option>
+				</field>
+				<field label="DISQUS" type="header" default="" />
+				<field name="disqusShortName" label="JW_SC_COM_DISQUS_SHORT_NAME" type="text" default="" />
+				<field name="disqusDevMode" label="JW_SC_COM_DISQUS_DEVELOPER_MODE" description="JW_SC_COM_DISQUS_DEVELOPER_MODE_DESC" type="radio" default="0">
+					<option value="0">JW_SC_COM_DISABLED</option>
+					<option value="1">JW_SC_COM_ENABLED</option>
+				</field>
+			</fieldset>
+			<fieldset label="JW_SC_COM_SHARING_SETTINGS" name="sharing">
+				<field name="autoPostLayout" label="JW_SC_COM_AUTOPOST_LAYOUT" type="list" default="default">
+					<option value="default">JW_SC_COM_DEFAULT</option>
+					<option value="bottom">JW_SC_COM_BOTTOM</option>
+				</field>
+				<field label="Facebook" type="header" default="" />
+				<field name="facebookAutoPost" label="JW_SC_COM_FACEBOOK_AUTOPOST" description="JW_SC_COM_FACEBOOK_AUTOPOST_DESC" type="radio" default="0">
+					<option value="0">JW_SC_COM_DISABLED</option>
+					<option value="1">JW_SC_COM_ENABLED</option>
+				</field>
+				<field name="facebookAutoPostData" service="facebook" multi="true" label="JW_SC_COM_AUTOPOST_ACCOUNT" type="serviceaccounts" />
+				<field label="Twitter" type="header" default="" />
+				<field name="twitterAutoPost" label="JW_SC_COM_TWITTER_AUTOPOST" description="JW_SC_COM_TWITTER_AUTOPOST_DESC" type="radio" default="0">
+					<option value="0">JW_SC_COM_DISABLED</option>
+					<option value="1">JW_SC_COM_ENABLED</option>
+				</field>
+				<field name="twitterAutoPostData" service="twitter" multi="false" label="JW_SC_COM_AUTOPOST_ACCOUNT" type="serviceaccounts" />
+			</fieldset>
+			<fieldset label="JW_SC_COM_ADVANCED_SETTINGS_TAB" name="advanced">
+				<field name="usernameGeneration" label="JW_SC_COM_USERNAME_GENERATION_LABEL" default="id" type="list">
+					<option value="name">JW_SC_COM_USERNAME_GENERATION_NAME</option>
+					<option value="email">JW_SC_COM_USERNAME_GENERATION_EMAIL</option>
+					<option value="hash">JW_SC_COM_USERNAME_GENERATION_HASH</option>
+					<option value="id">JW_SC_COM_USERNAME_GENERATION_ID</option>
+				</field>
+			</fieldset>
+			<fieldset label="JW_SC_COM_SYSTEM_SETTINGS_TAB" name="system">
+				<field name="stopForumSpamIntegration" label="JW_SC_COM_STOP_FORUM_SPAM_INTEGRATION_FOR_USER_LOGINS" type="radio" default="0">
+					<option value="0">JW_SC_COM_DISABLED</option>
+					<option value="1">JW_SC_COM_ENABLED</option>
+				</field>
+				<field name="curlConnectTimeout" label="JW_SC_COM_CURL_CONNECT_TIMEOUT" type="text" default="" description="JW_SC_COM_CURL_CONNECT_TIMEOUT_DESC" />
+				<field name="curlTimeout" label="JW_SC_COM_CURL_TIMEOUT" type="text" default="" description="JW_SC_COM_CURL_TIMEOUT_DESC" />
+			</fieldset>
+			<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+				<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" validate="rules" filter="rules" component="com_socialconnect" section="component"/>
+			</fieldset>
+		</fields>
+	</form>
+</config>

@@ -1,0 +1,35 @@
+.media-narrow(@rules) {
+    @media only screen and (max-width: 400px) { @rules(); }
+}
+
+.media-narrow2(@rules) {
+    @media only screen and (max-width: 600px) { @rules(); }
+}
+
+.media-tab-o(@rules) {
+    @media only screen and (max-width: 768px) { @rules(); }
+}
+
+.media-desk-o(@rules) {
+    @media only screen and (max-width: 992px)  { @rules(); }
+}
+
+.media-wide-o(@rules) {
+    @media only screen and (max-width: 1200px) { @rules(); }
+}
+
+.media-tab(@rules) {
+    @media only screen and (min-width: 768px) { @rules(); }
+}
+
+.media-desk(@rules) {
+    @media only screen and (min-width: 992px)  { @rules(); }
+}
+
+.media-wide(@rules) {
+    @media (min-width: 1200px) { @rules(); }
+}
+
+.media-megawide(@rules) {
+    @media (min-width: 1300px) { @rules(); }
+}

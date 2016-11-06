@@ -1,0 +1,617 @@
+<style>
+	.front_content_block{padding:100px 120px 80px 120px; border-bottom:1px dashed #D9D9D9; }
+	.cntr {text-align: center;}
+	.front_content_heading > span {  display: block;  font-weight: normal; text-transform:none;}
+	.maincontent .front_content_blocks{padding:0 60px 0 0;   position: relative;}
+	.side_links{width:60px;  background:#000; height:100%; position:absolute; right:0; top:0;}
+	.arrow_box {position: absolute; display:none; top:0;  right: 115%; background: #000; } 
+	.arrow_box:after { left: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(11, 11, 11, 0); border-left-color: #000; border-width: 8px; margin-top: -8px; }
+	.side_links ul li:hover div.arrow_box{display:block}
+	.side_links div > ul {
+  padding: 0;
+  position: fixed;
+  right: 0;
+  top: 15%;
+  width: 60px;
+}
+	.side_links li  a{background:#484848; width:10px; height:10px; border-radius:10px; display:inline-block;}
+	.side_links li {position: relative;   text-align: center;color:#FFF; list-style:none;}
+	.arrow_text {color: #fff; display: block; padding: 3px; width: 110px;}
+	.front_content_blocks > div:first-child {background:url(templates/filmfans_backend/front_bg.jpg) no-repeat center center; background-size:cover;}
+	.front_content_heading{margin:0px; color:#0b0b0b; text-transform: uppercase;}
+	.front_content_block.shadow_bottom {position:relative;}
+	.front_content_block.shadow_bottom:after {
+		position:absolute;
+		left:0;
+		bottom:0;
+		width: 100%;
+		height: 45px;
+		background-image: url('templates/filmfans_backend/shadow_bottom.png');
+		content:'';
+	}
+	.front_content_block.no-bottom-padding{
+		padding-bottom: 0;
+	}
+	.front_content_block.half-bottom-padding{
+		padding-bottom: 40px;
+	}
+	.front_content_block p{padding-top:20px;}
+	.front_content_block h3{font-size:18px; padding-top:20px; color:#0b0b0b;}
+	.inner_right{position:relative}
+	.img-responsive{width:100%;max-width:100%;}
+	.form-report-abuse {
+		background-color: #ededed;
+		position: relative;
+	}
+	.form-report-abuse input[type=submit] {
+		background-color: #dcdcdc;
+		text-align: center;
+		text-transform: uppercase;
+		width: 118px;
+		border: none;
+		outline: none;
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 14px;
+		font-weight: bold;
+		color: #262626;
+		padding: 22px 21px 20px 21px;
+	}
+	.form-report-abuse input[type=text] {
+		width: 100%;
+		margin-right: 118px;
+		border: none;
+		outline: none;
+		padding: 20px;
+		background-color: transparent;
+	}
+	.sub-heading {
+		font-size: 24px;
+	}
+	.sub-heading strong {
+		color: #0b0b0b;
+	}
+	.accordion-faq {
+		margin: 0 20px;
+		padding-top: 20px;
+		color: #898989;
+	}
+	.accordion-faq > a {
+		color: inherit;
+		text-decoration: none;
+	}
+	.accordion-faq > a:hover {
+		color: #0b0b0b;
+	}
+	.accordion-faq > a[aria-expanded=true] {
+		color: #0b0b0b;
+	}
+	.accordion-faq > a[aria-expanded=true] .accordion-header:after {
+		background-color: #0b0b0b;
+		content: '-';
+	}
+	.accordion-header {
+		position: relative;
+		padding: 0 0 5px 35px;
+		margin-top: 20px;
+		font-size: 18px;
+		-webkit-transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+		transition: all 0.2s ease-out;
+	}
+	.accordion-header:after {
+		position: absolute;
+		left: 0;
+		top: 4px;
+		height: 16px;
+		width: 16px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		background-color: #898989;
+		color: #FFF;
+		line-height: 16px;
+		font-size: 18px;
+		text-align: center;
+		font-weight: bold;
+		content: '+';
+		-webkit-transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+		transition: all 0.2s ease-out;
+	}
+	.accordion-panel {
+		font-size: 14px;
+		padding-left: 35px;
+		line-height: 2;
+		padding-bottom: 5px;
+	}
+	.front_content_block_white {
+		color: #FFF;
+	}
+	.front_content_block_white .front_content_heading {
+		color: #FFF;
+	}
+	.front_content_block_advertise {
+		background-image: url('templates/filmfans_backend/bg_advertise.png');
+		background-size: cover;
+	}
+	.highlight {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.form-advertise {
+		width: 100%;
+		max-width: 510px;
+		margin: 10px auto;
+		position: relative;
+		background-color: #f7f7f7;
+		color: #262626;
+	}
+	.form-advertise input[type=submit] {
+		background-color: #dcdcdc;
+		text-align: center;
+		text-transform: uppercase;
+		width: 118px;
+		border: none;
+		outline: none;
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 14px;
+		font-weight: bold;
+		color: #262626;
+		padding: 23px 21px 20px 21px;
+	}
+	.form-advertise input[type=text] {
+		width: 100%;
+		margin-right: 118px;
+		border: none;
+		outline: none;
+		padding: 20px;
+		background-color: transparent;
+	}
+	.form-invite {
+		position: relative;
+		max-width: 350px;
+		margin: 15px auto;
+		background-color: #FFF;
+		border: 1px #dadada solid;
+	}
+	.form-invite input[type=submit] {
+		background-color: #0b0b0b;
+		text-align: center;
+		text-transform: uppercase;
+		width: 80px;
+		border: none;
+		outline: none;
+		position: absolute;
+		right: 0;
+		top: -1px;
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFF;
+		padding: 14px 10px 13px 10px;
+	}
+	.form-invite input[type=text] {
+		width: 100%;
+		margin-right: 80px;
+		border: none;
+		outline: none;
+		padding: 10px;
+		background-color: transparent;
+	}
+	.button-small {
+		font-size: 10px;
+		color: #717171;
+		padding: 4px 18px;
+		text-transform: uppercase;
+		margin: 14px auto;
+		background-color: #f7f7f7;
+		border: 1px #dadada solid;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		display: inline-block;
+	}
+	.email-container {
+		background-color: #0b0b0b;
+		color: #FFF;
+		font-size: 12px;
+		padding: 5px 20px 5px 10px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		display: inline-block;
+		position: relative;
+		margin: 5px 4px;
+	}
+	.email-container:after {
+		position: absolute;
+		right: 6px;
+		top: 4px;
+		content: 'x';
+	}
+	.big-facebook-container,
+	.big-twitter-container {
+		overflow: auto;
+		text-align: center;
+		color: #FFF;
+		font-size: 14px;
+		margin: 28px 0;
+	}
+	.big-facebook-container {
+		background-color: #3d5a95;
+	}
+	.big-twitter-container {
+		background-color: #0cb4e4;
+	}
+	.big-facebook-icon,
+	.big-twitter-icon {
+		float: left;
+		width: 37px;
+		height: 40px;
+	}
+	.big-facebook-icon {
+		border-right: 1px #334e85 solid;
+		background-image: url('templates/filmfans_backend/icon_facebook.png');
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.big-twitter-icon {
+		border-right: 1px #0da3ce solid;
+		background-image: url('templates/filmfans_backend/icon_twitter.png');
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.big-facebook-content,
+	.big-twitter-content {
+		padding: 10px;
+	}
+	.browser-check {
+		position: absolute;
+		top: 15px;
+		left: 50%;
+		margin-left: -9px;
+		height: 18px;
+		width: 18px;
+		background-color: #0b0b0b;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		background-image: url('templates/filmfans_backend/icon_check.png');
+		background-position: center center;
+		background-repeat: no-repeat;
+		-webkit-transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+		transition: all 0.2s ease-out;
+		z-index: 10;
+	}
+	.browser-box {
+		position: relative;
+		height: 135px;
+		width: 135px;
+		border: 1px transparent solid;
+		background-position: center center;
+		background-repeat: no-repeat;
+		display: inline-block;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		-webkit-transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+		transition: all 0.2s ease-out;
+	}
+	.browser-box:after {
+		position: absolute;
+		height: 121px;
+		width: 121px;
+		top: 6px;
+		left: 6px;
+		border: 1px transparent solid;
+		content: '';
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		-webkit-transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+		transition: all 0.2s ease-out;
+	}
+	.browser-box:before {
+		position: absolute;
+		height: 117px;
+		width: 117px;
+		top: 11px;
+		left: 11px;
+		border: 1px transparent solid;
+		content: '';
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		-webkit-transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+		transition: all 0.2s ease-out;
+	}
+	.browser-box:hover {
+		border-color: #b2b2b2;
+	}
+	.browser-box:hover .browser-check {
+		top: -9px;
+		background-color: #669900;
+	}
+	.browser-box:hover:after {
+		border-color: #e4e4e4;
+	}
+	.browser-box:hover:before {
+		border-color: #f2f2f2;
+	}
+	.browser-chrome {
+		background-image: url('templates/filmfans_backend/chrome.png');
+	}
+	.browser-firefox {
+		background-image: url('templates/filmfans_backend/firefox.png');
+	}
+	.browser-opera {
+		background-image: url('templates/filmfans_backend/opera.png');
+	}
+	.browser-ie {
+		background-image: url('templates/filmfans_backend/ie.png');
+	}
+	.browser-safari {
+		background-image: url('templates/filmfans_backend/safari.png');
+	}
+	.btn-img {
+		margin-top: 25px;
+		margin-bottom: 40px;
+	}
+	.half-side-padding {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+</style>
+<script>/*
+$(document).ready(function(e) {
+    
+});*/
+</script>
+<div class="container col-xs-height" style="padding: 0;">
+    <div id="content" class="content front_content_blocks" style="min-height: 427px;">
+        <div class="front_content_block cntr">
+        	<a id="whtfilm"></a> 
+        	<h1 class="front_content_heading">
+            	<span>What is</span> #FILMFANS
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis erat at sollicitudin  Nulla eleifend mauris sit amet mi tincidunt consequat. Vestibulum hendreritvitae  tum magna hendrerit id. Vivamus eget urna .</p>
+        </div>
+        
+        <div class="front_content_block cntr no-bottom-padding shadow_bottom">
+        	<a id="getapp"></a> 
+        	<h1 class="front_content_heading">
+            	<span>GET THE APP</span>
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis erat at sollicitudin  Nulla eleifend mauris sit amet mi tincidunt consequat. Vestibulum hendreritvitae  tum magna hendrerit id. Vivamus eget urna .</p>
+            <div class="row">
+            	<div class="col-xs-6 text-right"><img class="btn-img" alt="apple" src="templates/filmfans_backend/btn_apple.png" /></div>
+                <div class="col-xs-6 text-left"><img class="btn-img" alt="android" src="templates/filmfans_backend/btn_android.png" /></div>
+            </div>
+            <img class="img-responsive" alt="mobiles" src="templates/filmfans_backend/mobiles.png" />
+        </div>
+        
+        <div class="front_content_block cntr half-side-padding">
+        	<a id="browse"></a> 
+        	<h1 class="front_content_heading">
+            	Browser Extenstion
+            </h1>
+            <p class="sub-heading">Download the extension for your favorite browser</p>
+            <div class="text-center">
+            	<div class="browser-box browser-chrome">
+                	<div class="browser-check"></div>
+                </div>
+                <div class="browser-box browser-firefox">
+                	<div class="browser-check"></div>
+                </div>
+                <div class="browser-box browser-ie">
+                	<div class="browser-check"></div>
+                </div>
+                <div class="browser-box browser-opera">
+                	<div class="browser-check"></div>
+                </div>
+                <div class="browser-box browser-safari">
+                	<div class="browser-check"></div>
+                </div>
+            </div>
+        	<img class="img-responsive" alt="ipad" src="templates/filmfans_backend/ipad.png" />
+        </div>
+        
+		<div class="front_content_block cntr">
+        	<a id="invite"></a> 
+        	<h1 class="front_content_heading">
+            	Invite Friends
+            </h1>
+            <p class="sub-heading">Invite by email, via facebook or twitter</p>
+            <form class="form-invite">
+            	<input type="text" placeholder="Your email" />
+                <input type="submit" value="Invite" />
+            </form>
+            <div class="text-left">
+                <div class="email-container">peter.roger@gmail.com</div>
+                <div class="email-container">mike.alan@gmail.com</div>
+                <div class="email-container">maria.sands@hotmail.com</div>
+                <div class="email-container">john.coltrain@msn.com</div>
+                <div class="email-container">sofiatemptra@yahoo.com</div>
+                <div class="email-container">godspeed@gmail.com</div>
+            </div>
+            <div>
+            	<div class="button-small">Delete all</div>
+            </div>
+            <div class="row">
+            	<div class="col-md-6">
+                	<div class="big-facebook-container">
+                    	<div class="big-facebook-icon"></div>
+                        <div class="big-facebook-content">Invite via Facebook</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                	<div class="big-twitter-container">
+                    	<div class="big-twitter-icon"></div>
+                        <div class="big-twitter-content">Invite via Twitter</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+		<div class="front_content_block cntr front_content_block_white front_content_block_advertise"><a name="advertise"></a> 
+        	<a id="advertise"></a>
+            <h1 class="front_content_heading">
+            	Advertise With Us
+            </h1>
+            <p class="sub-heading">Promote your business with <span class="highlight">#FilmFans</span> website</p>
+        	<form class="form-advertise">
+            	<input type="text" placeholder="Your email" />
+                <input type="submit" value="Send" />
+            </form>
+        </div>
+        
+		<div class="front_content_block cntr half-bottom-padding">
+         	<a id="support"></a> 
+        	<h1 class="front_content_heading ">
+            	Support
+            </h1>
+            <p class="sub-heading">Support available 24/7. Get in touch with us<br />
+            <strong>Send us a email: help@filmfans.com</strong></p>
+        	<p class="text-center"><img alt="megaphone" src="templates/filmfans_backend/icon_megaphone.png" /></p>
+        </div>
+        
+		<div class="front_content_block">
+        	<a id="faq"></a> 
+        	<h1 class="front_content_heading cntr">
+            	F.A.Q.
+            </h1>
+            
+            <div class="accordion-faq" role="tablist" aria-multiselectable="true">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="accordion-header" role="tab" id="headingOne">
+                    	Nam molestie aliquet arcu, vitae semper nisl blandit at, nunc vehicula justo a bibendum efficitur?
+                    </div>
+                </a>
+                <div id="collapseOne" class="accordion-panel panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+					Mauris aliquam lacus venenatis dolor porttitor, nec hendrerit massa condimentum. In rutrum, est cursus facilisis suscipit, eros urna accumsan justo, non pellentesque lectus ipsum sed ex. Aenean sagittis orci sed neque vehicula, sed vestibulum dui finibus. In ultrices efficitur tortor, vel vehicula diam sagittis ac. Curabitur tincidunt, augue ut interdum sollicitudin, dolor ipsum tempor nisl, ac sollicitudin felis nunc id ex. Nunc ut ornare leo. Etiam eget mi eget dolor maximus semper. Maecenas imperdiet turpis at enim placerat egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu elit eu odio tristique efficitur eu id nunc. Cras ultricies eget ex in tempor.
+				</div>
+                
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="accordion-header" role="tab" id="headingTwo">
+                        Nunc cursus interdum enim, eget porta tellus commodo quis, duis pharetra pretium lacus ac bibendum?
+                    </div>
+                </a>
+                <div id="collapseTwo" class="accordion-panel panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					Mauris aliquam lacus venenatis dolor porttitor, nec hendrerit massa condimentum. In rutrum, est cursus facilisis suscipit, eros urna accumsan justo, non pellentesque lectus ipsum sed ex. Aenean sagittis orci sed neque vehicula, sed vestibulum dui finibus. In ultrices efficitur tortor, vel vehicula diam sagittis ac. Curabitur tincidunt, augue ut interdum sollicitudin, dolor ipsum tempor nisl, ac sollicitudin felis nunc id ex. Nunc ut ornare leo. Etiam eget mi eget dolor maximus semper. Maecenas imperdiet turpis at enim placerat egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu elit eu odio tristique efficitur eu id nunc. Cras ultricies eget ex in tempor.
+                </div>
+                
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="accordion-header" role="tab" id="headingThree">
+                        Proin ac libero mollis, dapibus neque sagittis, feugiat mi. Mauris tincidunt quis tellus eget gravida, donec id eros?
+                    </div>
+                </a>
+                <div id="collapseThree" class="accordion-panel panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					Mauris aliquam lacus venenatis dolor porttitor, nec hendrerit massa condimentum. In rutrum, est cursus facilisis suscipit, eros urna accumsan justo, non pellentesque lectus ipsum sed ex. Aenean sagittis orci sed neque vehicula, sed vestibulum dui finibus. In ultrices efficitur tortor, vel vehicula diam sagittis ac. Curabitur tincidunt, augue ut interdum sollicitudin, dolor ipsum tempor nisl, ac sollicitudin felis nunc id ex. Nunc ut ornare leo. Etiam eget mi eget dolor maximus semper. Maecenas imperdiet turpis at enim placerat egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu elit eu odio tristique efficitur eu id nunc. Cras ultricies eget ex in tempor.
+                </div>
+                
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <div class="accordion-header" role="tab" id="headingFour">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, quisque sit amet sapien pretium, congue tellus at?
+                    </div>
+                </a>
+                <div id="collapseFour" class="accordion-panel panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+					Mauris aliquam lacus venenatis dolor porttitor, nec hendrerit massa condimentum. In rutrum, est cursus facilisis suscipit, eros urna accumsan justo, non pellentesque lectus ipsum sed ex. Aenean sagittis orci sed neque vehicula, sed vestibulum dui finibus. In ultrices efficitur tortor, vel vehicula diam sagittis ac. Curabitur tincidunt, augue ut interdum sollicitudin, dolor ipsum tempor nisl, ac sollicitudin felis nunc id ex. Nunc ut ornare leo. Etiam eget mi eget dolor maximus semper. Maecenas imperdiet turpis at enim placerat egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu elit eu odio tristique efficitur eu id nunc. Cras ultricies eget ex in tempor.
+                </div>
+                
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <div class="accordion-header" role="tab" id="headingFive">
+                        Donec ut enim convallis, rutrum ligula sit amet, porta quam, nulla vulputate nunc ut neque pharetra, nec gravida?
+                    </div>
+                </a>
+                <div id="collapseFive" class="accordion-panel panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+					Mauris aliquam lacus venenatis dolor porttitor, nec hendrerit massa condimentum. In rutrum, est cursus facilisis suscipit, eros urna accumsan justo, non pellentesque lectus ipsum sed ex. Aenean sagittis orci sed neque vehicula, sed vestibulum dui finibus. In ultrices efficitur tortor, vel vehicula diam sagittis ac. Curabitur tincidunt, augue ut interdum sollicitudin, dolor ipsum tempor nisl, ac sollicitudin felis nunc id ex. Nunc ut ornare leo. Etiam eget mi eget dolor maximus semper. Maecenas imperdiet turpis at enim placerat egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu elit eu odio tristique efficitur eu id nunc. Cras ultricies eget ex in tempor.
+                </div>
+            </div>            
+        </div>
+        
+		<div class="front_content_block cntr half-bottom-padding">
+         	<a id="abuse"></a> 
+        	<h1 class="front_content_heading">
+            	Report Abuse
+            </h1>
+            <p class="sub-heading">Our staff will review the content which may be in violation of our content guidelines</p>
+        	<form class="form-report-abuse">
+            	<input type="text" placeholder="paste page url, ie: http://www.filmfans.com/trailer-edge-of-tomorrow" />
+                <input type="submit" value="Send" />
+            </form>
+        	<p class="text-center"><img alt="mobiles" src="templates/filmfans_backend/icon_warning.png" /></p>
+        </div>
+        
+		 <div class="front_content_block">
+         	<a id="terms"></a> 
+        	<h1 class="front_content_heading">
+            	Terms Of Services
+            </h1>
+			<h3>Welcome to #FILMFANS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3>Using our website services</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+			<h3>Privacy and copyright infringement</h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+        </div>
+        
+		<div class="front_content_block">
+        	<a id="privacy"></a> 
+        	<h1 class="front_content_heading">
+            	Privacy Policy
+            </h1>
+            <h3>Information we collect</h3>
+            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+			<h3>How we handle colected information</h3>
+            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+			<h3>Information shared by the users</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+			<h3>Information Security</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3>Information Updates</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        </div>
+        
+        <div class="side_links">
+        	<div class="inner_right">
+            	<ul>
+                    <li><a class="scroll-to" href="#whtfilm"></a><div class="arrow_box"><span class="arrow_text">Get The App</span></div></li>
+                    <li><a class="scroll-to" href="#getapp"></a><div class="arrow_box"><span class="arrow_text">Get The App</span></div></li>
+                    <li><a class="scroll-to" href="#browse"></a><div class="arrow_box"><span class="arrow_text">Browse Extenstion</span></div></li>
+                    <li><a class="scroll-to" href="#invite"></a><div class="arrow_box"><span class="arrow_text">Invite Friends</span></div></li>
+                    <li><a class="scroll-to" href="#advertise"></a><div class="arrow_box"><span class="arrow_text">Advertise With Us</span></div></li>
+					<li><a class="scroll-to" href="#support"></a><div class="arrow_box"><span class="arrow_text">Support</span></div></li>
+					<li><a class="scroll-to" href="#faq"></a><div class="arrow_box"><span class="arrow_text">F.A.Q.</span></div></li>
+					<li><a class="scroll-to" href="#abuse"></a><div class="arrow_box"><span class="arrow_text">Report Abuse</span></div></li>
+					<li><a class="scroll-to" href="#terms"></a><div class="arrow_box"><span class="arrow_text">Terms Of Services</span></div></li>
+					<li><a class="scroll-to" href="#privacy"></a><div class="arrow_box"><span class="arrow_text">Privacy Policy</span></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="templates/filmfans_backend/jquery.scrollTo.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(e) {
+    /* in page scrolling */
+	jQuery('.scroll-to').click(function(e) {
+		e.preventDefault();
+		jQuery.scrollTo(jQuery(this).attr('href'), 800, {axis:'y'});
+	});
+});
+</script>

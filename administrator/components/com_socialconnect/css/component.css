@@ -1,0 +1,58 @@
+/* Joomla! 1.5 CSS fixes */
+#content-box .padding {
+	padding: 0 !important;
+}
+#element-box .t {
+	display: none;
+}
+
+td.paramlist_key {
+	background: none !important;
+	border: none !important;
+	color: inherit !important;
+	font-weight: normal !important;
+	text-align: inherit !important;
+	width: 220px !important;
+}
+
+/**
+ * @version		$Id: style.css 3434 2013-07-26 14:30:14Z lefteris.kavadas $
+ * @package		SocialConnect
+ * @author		JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+/* Joomla! 2.5 CSS fixes */
+#toolbar-box {
+	display: none;
+}
+#content-box {
+	border: none !important;
+	width: auto !important;
+}
+#element-box {
+	padding: 0 !important;
+}
+#element-box .m {
+	border: none !important;
+	padding: 0 !important;
+}
+
+#socialConnect td {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Joomla! 3.x CSS fixes */
+header.header {
+	display: none;
+}
+.container-main {
+	padding: 0 !important;
+}
+.subhead-collapse {
+	display: none;
+}
+#system-message-container, #system-message {
+	display: none;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Hash Link">
+        <message>Does menu alias with hash</message>
+    </layout>
+
+    <fields name="request">
+        <fieldset name="request">
+            <field name="ffhash" type="text" label="Hash without #" required="true" />
+            <field name="ffmenuitem" type="menuitem" label="Page menuitem" required="true" />
+        </fieldset>
+    </fields>
+</metadata>
